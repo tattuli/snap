@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>SNAP</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <img
+            src="./assets/snap.svg"
+            alt="Snap Logo"
+            class="header__logo-image"
+          />
+        </div>
+        <div class="header__menu">
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item navbar__item--dropdown">
+                <a href="#" class="navbar__link navbar__link--dropdown">
+                  Features
+                  <img
+                    src="./assets/arrow_down.svg"
+                    alt="Arrow Down"
+                    class="navbar__icon"
+                  />
+                </a>
+                <ul class="dropdown-menu dropdown-menu--features">
+                  <li class="dropdown-menu__item">
+                    <img
+                      src="./assets/list.svg"
+                      alt="Todo List"
+                      class="dropdown-menu__icon"
+                    />
+                    <a class="dropdown-menu__link">Todo List</a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <img
+                      src="./assets/calendar.svg"
+                      alt="Calendar"
+                      class="dropdown-menu__icon"
+                    />
+                    <a class="dropdown-menu__link">Calendar</a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <img
+                      src="./assets/bell.svg"
+                      alt="Reminders"
+                      class="dropdown-menu__icon"
+                    />
+                    <a class="dropdown-menu__link">Reminders</a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <img
+                      src="./assets/clock.svg"
+                      alt="Planning"
+                      class="dropdown-menu__icon"
+                    />
+                    <a class="dropdown-menu__link">Planning</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar__item navbar__item--dropdown">
+                <a href="#" class="navbar__link navbar__link--dropdown">
+                  Company
+                  <img
+                    src="./assets/arrow_down.svg"
+                    alt="Arrow Down"
+                    class="navbar__icon"
+                  />
+                </a>
+                <ul class="dropdown-menu dropdown-menu--company">
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">History</a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">Our Team</a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">Blog</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Careers</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="auth-buttons">
+            <button class="auth-buttons__btn auth-buttons__btn--login">
+              Login
+            </button>
+            <button class="auth-buttons__btn auth-buttons__btn--register">
+              Register
+            </button>
+          </div>
+        </div>
+
+        <div class="burger-menu">
+          <img
+            src="./assets/burger_menu.svg"
+            alt="Menu"
+            class="burger-menu__icon"
+            id="burgerMenu"
+          />
+        </div>
+        <div class="close-btn">
+          <img
+            src="./assets/close.svg"
+            alt="Close"
+            class="close-btn__icon"
+            id="closeBtn"
+          />
+        </div>
+      </header>
+
+      <section class="main-section">
+        <div class="main-section__text">
+          <h1 class="main-section__heading">Make remote work</h1>
+          <p class="main-section__description">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="main-section__btn">Learn more</button>
+        </div>
+        <div class="main-section__hero-img">
+          <img class="hero-img" src="./assets/hero.svg" alt="Image" />
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer__logos">
+        <img
+          src="./assets/databiz.svg"
+          alt="Databiz"
+          class="footer__logo footer__logo--1"
+        />
+        <img
+          src="./assets/audio_phile.svg"
+          alt="Audiophile"
+          class="footer__logo footer__logo--2"
+        />
+        <img
+          src="./assets/meet.svg"
+          alt="Meet"
+          class="footer__logo footer__logo--3"
+        />
+        <img
+          src="./assets/maker.svg"
+          alt="Maker"
+          class="footer__logo footer__logo--4"
+        />
+      </div>
+    </footer>
+    <div class="overlay"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
